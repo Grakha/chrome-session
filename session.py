@@ -31,7 +31,7 @@ title = tk.Label(window, text="Google Save Session", anchor='w').pack(fill='both
 label_in = tk.Label(window, text="Input PATH").pack()
 entry_in = tk.Entry(window, width="35").pack()
 
-photo = tk.PhotoImage(file="folder_pic.png")
+photo = tk.PhotoImage(file="./icons/folder.png")
 btn_entry_in = tk.Button(window, image=photo, width="16", height="16", command=base_path).pack()
 
 # Path out
